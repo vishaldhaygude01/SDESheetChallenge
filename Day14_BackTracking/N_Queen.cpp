@@ -24,6 +24,7 @@ public:
             }
         }
     }
+
     vector<vector<string>> solveNQueens(int n) {
         if(n <= 0) return {{}};
         vector<string>board(n,string(n,'.'));
