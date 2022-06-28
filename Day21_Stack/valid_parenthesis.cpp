@@ -15,6 +15,7 @@ public:
             if(st.top() == 0){
                 st.pop();
             }
+            
             switch (s[i]){
                 case ')':
                     x = st.top();
