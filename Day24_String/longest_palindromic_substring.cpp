@@ -14,6 +14,7 @@ public:
                 else if(diff==1){
                     dp[i][j]=(s[i]==s[j])?2:0;
                 }
+                
                 else {
                     if(s[i]==s[j] && dp[i+1][j-1]){
                         dp[i][j] = dp[i+1][j-1]+2;
