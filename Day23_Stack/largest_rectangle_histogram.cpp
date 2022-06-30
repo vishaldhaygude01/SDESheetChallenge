@@ -17,7 +17,6 @@ private:
         }
         return ans;
     }
-
     vector<int> prevSmaller(vector<int>arr, int n){
         stack<int>st;
         st.push(-1);
