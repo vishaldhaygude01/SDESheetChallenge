@@ -16,6 +16,7 @@ public:
             ans.push_back(board);
             return;
         }
+        
         for(int i=0;i<board.size();++i){
             if(isSafe(board,row,i)){
                 board[row][i] = 'Q';
